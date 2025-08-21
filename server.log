@@ -1,0 +1,6 @@
+nohup: ignoring input
+
+> online-tank-2d@1.0.0 start
+> node server.js
+
+Server listening on http://localhost:3000
