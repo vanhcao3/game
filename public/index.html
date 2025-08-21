@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+	<title>Tank Arena 2D</title>
+	<link rel="preconnect" href="https://unpkg.com">
+	<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+	<div id="ui">
+		<div id="title">Tank Arena</div>
+		<div id="hud">
+			<span id="you">You: 0</span>
+			<span id="players">Players: 1</span>
+		</div>
+		<div id="help">WASD to move • Mouse to aim • Hold mouse or Space to shoot</div>
+	</div>
+
+	<!-- Three.js -->
+	<script src="https://unpkg.com/three@0.161.0/build/three.min.js"></script>
+	<!-- Socket.IO client served by the server -->
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="/client.js"></script>
+</body>
+</html>
+

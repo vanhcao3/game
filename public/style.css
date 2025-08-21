@@ -1,0 +1,51 @@
+html, body {
+	margin: 0;
+	height: 100%;
+	background: #0b0f12;
+	color: #e7ecef;
+	font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif;
+}
+
+canvas {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	display: block;
+	outline: none;
+}
+
+#ui {
+	position: fixed;
+	left: 16px;
+	top: 12px;
+	user-select: none;
+	text-shadow: 0 1px 0 rgba(0,0,0,0.7);
+}
+
+#title {
+	font-weight: 800;
+	letter-spacing: 0.5px;
+	font-size: 20px;
+	opacity: 0.9;
+}
+
+#hud {
+	margin-top: 6px;
+	opacity: 0.85;
+	font-size: 14px;
+}
+
+#hud span + span {
+	margin-left: 12px;
+}
+
+#help {
+	position: fixed;
+	left: 16px;
+	bottom: 16px;
+	opacity: 0.6;
+	font-size: 13px;
+}
+
